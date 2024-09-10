@@ -276,6 +276,7 @@ nav a:hover {
 }
 
 .know-span {
+    display: none;
     position: absolute;
     left: 65%;
     top: 1550px;
@@ -4376,7 +4377,7 @@ footer {
         background-image: url('images/fresh_attach.JPG');
         background-position: center;
         background-repeat: no-repeat;
-        background-size: ;
+        background-size: cover;
         background-attachment: scroll;
         height: 460px;
       }
@@ -4521,7 +4522,7 @@ footer {
     
     .section8 {
         background-image: url('images/fresh_img6.jpg');
-        background-position: bottom;
+        background-position: ;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: scroll;
@@ -4546,6 +4547,9 @@ footer {
     
     .exper h3 {
         font-size: 18px;
+        color:#BCB88A;
+        font-weight: bold;
+        text-align: center;
     }
 
     .reserve-btn {
