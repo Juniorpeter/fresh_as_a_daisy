@@ -995,7 +995,7 @@ footer {
         padding: 5px 10px;
         margin-top: 80px;
         font-size: 12px;
-        margin-left: -330px;
+        margin-left: -200px;
         transition: all 0.4s ease;
     }
     
@@ -1366,7 +1366,7 @@ footer {
     
     .reviews1 h3 {
         text-align: center;
-        font-size: 22px;
+        font-size: 16px;
         line-height: 30px;
     }
     
@@ -1511,7 +1511,7 @@ footer {
     }
 }
 
-@media only screen and (min-width: 431px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     header nav, header .account {
         display: none;
     } 
@@ -4165,7 +4165,7 @@ footer {
         position: absolute;
         width: 370px;
         height: 248.9px;
-        left: 30px;
+        left: 70px;
         padding-top: 90px;
     }
     
@@ -4180,6 +4180,7 @@ footer {
     
     .rest-txt {
         margin-top: 10px;
+        margin-left: 0px;
     }
     
     .rest-txt h2 {
@@ -4197,12 +4198,16 @@ footer {
     }
     .rest-img {
         display: ;
+        left: -70px;
     }
     .rest-img img {
         position: absolute;
         top: -490px;
         width: 370px;
-        left: 30px;
+        left: -30px;
+        right: 70px;
+        margin-top: -5px;
+        margin-left: -0px;
         height: 248.9px;
         bottom: 50px;
         margin-bottom: 30px;
@@ -4425,6 +4430,7 @@ footer {
         font-size: 22px;
         font-weight: bold;
         color: #BCB88A;
+        padding-bottom: 0;
       }
     
       .flat p {
