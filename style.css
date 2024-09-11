@@ -175,7 +175,11 @@ nav a:hover {
 }
 
 .about-img {
-    margin-left: 50px;
+    margin-left: 90px;
+}
+
+.about-img img {
+    width: 538px;
 }
 
 .about-txt {
@@ -183,6 +187,8 @@ nav a:hover {
     margin-left: 50px;
     font-size: 18px;
     margin-top: 50px;
+    margin-left: 36px;
+    max-width: 550.35px;
 }
 
 .about-txt h4 {
@@ -236,10 +242,12 @@ nav a:hover {
 
 .section3 {
     padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .section4 {
     margin-bottom: 0px;
+    display: none;
 }
 
 .our-menu h4 {
@@ -435,8 +443,15 @@ nav a:hover {
   }
 
   .section5 {
-    display: flex;
+    display: none;
     gap: 5px;
+  }
+
+  .wrap-h1 h1 {
+    font-weight: bold;
+    margin-left: 20px;
+    padding-top: 50px;
+    margin-bottom: -70px;
   }
 /*gallery*/
 .gallery {
@@ -549,6 +564,7 @@ nav a:hover {
   }
 
   .flat p {
+    display: none;
     margin-top: 20px;
     font-size: 25px;
     color: white;
@@ -955,14 +971,14 @@ footer {
     }
 
     .about-img img {
-        width: 520px;
+        width: 420px;
     }
     
     .about-txt {
         color: #fff;
         margin-left: 50px;
         font-size: 16px;
-        margin-top: 50px;
+        margin-top: 80px;
     }
     
     .about-txt h4 {
@@ -976,9 +992,10 @@ footer {
         background-color: ;
         color: #fff;
         border: 1px solid #fff;
-        padding: 5px 20px;
+        padding: 5px 10px;
         margin-top: 80px;
-        font-size: 16px;
+        font-size: 12px;
+        margin-left: -330px;
         transition: all 0.4s ease;
     }
     
@@ -1001,7 +1018,10 @@ footer {
         color: #fff;
     }
     
-    
+    .know-btn11 {
+        font-size: 12px;
+        padding: 5px 10px;
+    }   
     .section4 {
         margin-bottom: 0px;
     }
@@ -1021,13 +1041,14 @@ footer {
         margin-top: 40px;
         display: flex;
         position: relative;
+        padding-bottom: 80px;
 
     }
     
     .menu-txt {
         padding-left: 50px;
         margin-top: 0px;
-        margin-left: 320px;
+        margin-left: 260px;
         width: 380px;
         z-index: 10;
     }
@@ -1039,24 +1060,28 @@ footer {
     
     .menu-txt h4 {
         margin-bottom: 20px;
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .menu img {
-        position: absolute;
+        position: ;
         width: 420px;
         height: 282.53px;
+        margin-left: -40px;
     }
     
     .rest-flex {
         margin-left: 90px;
         margin-top: 0px;
         display: flex;
+        position: relative;
     }
     
     .rest-txt {
         margin-top: 0px;
         max-width: 380px;
+        margin-left: -40px;
+        margin-top: 60px;
     }
     
     .rest-txt h2 {
@@ -1066,12 +1091,14 @@ footer {
     
     .rest-txt h4 {
         margin-bottom: 20px;
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .rest-img img {
         width: 420px;
         height: 282.53px;
+        margin-top: 60px;
+        margin-left: 70px;
     }
 
     .menu-flex {
@@ -1284,6 +1311,7 @@ footer {
         font-size: 38px;
         font-weight: bold;
         color: #BCB88A;
+        padding-bottom: 40px;
       }
     
       .flat p {
@@ -2249,13 +2277,13 @@ footer {
         color: #BCB88A;
     }
     .fa-envelope-o {
-        margin-right: 160px;
+        margin-right: 170px;
     }
     .fa-map-marker {
-        margin-right: 245px;
+        margin-right: 285px;
     }
     .fa-phone::before {
-        margin-right: 110px;
+        margin-right: 130px;
     }
     
     }
@@ -4066,6 +4094,7 @@ footer {
         padding: 5px 20px;
         margin-top: 80px;
         font-size: 13px;
+        margin-left: -10px;
         transition: all 0.4s ease;
     }
     
@@ -4380,6 +4409,7 @@ footer {
         background-size: cover;
         background-attachment: scroll;
         height: 460px;
+        margin-top: -400px;
       }
     
       .flat-flex {
@@ -4456,7 +4486,7 @@ footer {
     
     .reviews1 p {
         text-align: center;
-        font-size: 14px;
+        font-size: 16px;
         width: 370px;
         margin-top: 50px;
         margin-bottom: 100px;
@@ -4608,13 +4638,13 @@ footer {
         color: #BCB88A;
     }
     .fa-envelope-o {
-        margin-right: 160px;
+        margin-right: 170px;
     }
     .fa-map-marker {
-        margin-right: 245px;
+        margin-right: 285px;
     }
     .fa-phone::before {
-        margin-right: 110px;
+        margin-right: 130px;
     }
     
     }
